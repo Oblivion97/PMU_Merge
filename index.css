@@ -1,0 +1,810 @@
+body,
+* {
+    font-family: Helvetica Neue,
+        Arial,
+        sans-serif;
+    /* font-size: 18px; */
+    height: 100%;
+    width: 100%;
+}
+/* =============================================HOME Style CSS start=================================================== */
+.mhPage1Background {
+    background-image: url(./img/image/Hero-image.png);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+}
+
+
+/* page1 left side style */
+.mhPage1Left {
+    height: auto;
+    bottom: 0;
+    margin-bottom: 50px;
+    left: 0;
+    padding-left: 5% !important;
+}
+
+
+
+.mhpage1LeftText {
+    height: 112px;
+    width: 100%;
+    font-size: 80px;
+    text-align: left;
+    color: #fff;
+}
+
+.mhpage1Leftbutton {
+    height: 80px;
+    width: 230px;
+    background-color: #D10D74;
+    border-radius: 53px;
+    opacity: 1px !important;
+    color: #fff;
+    font-size: 40px;
+    align-items: center;
+    border: 0ch;
+}
+
+/* page1 right side style */
+.mhPage1Right {
+    height: auto;
+    position: fixed;
+    bottom: 0;
+    margin-bottom: 50px;
+    right: 0;
+    padding-left: 5% !important;
+}
+
+.mhpage1RightText {
+    height: 112px;
+    width: 100%;
+    font-size: 80px;
+    text-align: left;
+    color: #fff;
+}
+
+.mhpage1Rightbutton {
+    height: 80px;
+    width: 230px;
+    background-color: #fff;
+    border-radius: 53px;
+    opacity: 1px !important;
+    color: #D10D74;
+    font-size: 40px;
+    align-items: center;
+    border: 0ch;
+}
+
+.mhpage1LeftButtondiv,
+.mhpage1RightTextdiv,
+.mhpage1LeftButtondiv,
+.mhpage1LeftTextdiv {
+    height: auto;
+}
+
+/* =============================================HOME Style CSS end=================================================== */
+
+/* =============================================SERVICES Page 1 Style CSS start=================================================== */
+
+.mhPage2Background {
+    background-image: url(./img/SVG/black-dotline.svg);
+    background-color: #FAFAFA;
+}
+
+.mhPage2ParentDiv {
+    height: auto;
+    width: 100%;
+
+}
+
+.mhPage2childDiv {
+    padding-left: 123px;
+    padding-right: 123px;
+}
+
+.mhpage2Header {
+    margin-top: 60px;
+}
+
+.mhPage2FirstHead {
+    height: auto;
+}
+
+.mhPage2SecondHead {
+    height: auto;
+    border-bottom: 1px solid #D10D74 !important;
+
+    border-color: #D10D74;
+}
+
+.mhPage2FirstHeadText {
+    font-size: 80px;
+    font-weight: bold;
+    height: 101px;
+    color: #4D4F53;
+    opacity: 1 !important;
+}
+
+.mhPage2SecondHeadText {
+    font-size: 40px;
+    height: 47px;
+    color: #4D4F53;
+    opacity: 1 !important;
+}
+
+.mhPage2SeconHeadRed {
+    font-size: 40px;
+    height: 35px;
+    color: #D10D74;
+    opacity: 1 !important;
+    width: 192px;
+}
+
+
+/* .mhPage2Grid {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    padding: 10px;
+    height: auto;
+    margin-top: 63px;
+} */
+
+.mhPage2Grid {
+    margin-top: 63px;
+    max-width: 1638px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    row-gap: 88px;
+    column-gap: 85px;
+    padding-bottom: 0px;
+    height: auto;
+}
+
+.mhPage2GridRow1,
+.mhPage2GridRow2,
+.mhPage2GridRow3 {
+    display: flex;
+    flex-direction: row;
+}
+
+.grid-item {
+    display: flex;
+}
+
+/* .mhPage2GridItem2,
+.mhPage2GridItem3,
+.mhPage2GridItem4,
+.mhPage2GridItem5,
+.mhPage2GridItem7,
+.mhPage2GridItem8,
+.mhPage2GridItem9,
+.mhPage2GridItem10,
+.mhPage2GridItem12,
+.mhPage2GridItem13,
+.mhPage2GridItem14 {
+    margin-left:85px ;
+} */
+
+/* .mhPage2GridItem6,
+.mhPage2GridItem7,
+.mhPage2GridItem8,
+.mhPage2GridItem9,
+.mhPage2GridItem10,
+.mhPage2GridItem11,
+.mhPage2GridItem12,
+.mhPage2GridItem13,
+.mhPage2GridItem14 {
+    margin-top: 88px;
+} */
+
+
+.mhPage2GridImg1,
+.mhPage2GridImg2,
+.mhPage2GridImg3,
+.mhPage2GridImg4,
+.mhPage2GridImg5,
+.mhPage2GridImg6,
+.mhPage2GridImg7,
+.mhPage2GridImg8,
+.mhPage2GridImg9,
+.mhPage2GridImg10,
+.mhPage2GridImg11,
+.mhPage2GridImg12,
+.mhPage2GridImg13,
+.mhPage2GridImg14 {
+    height: 53px;
+    width: 46px;
+    opacity: 100% !important;
+}
+
+.mhPage2GridText1,
+.mhPage2GridText2,
+.mhPage2GridText3,
+.mhPage2GridText4,
+.mhPage2GridText5,
+.mhPage2GridText6,
+.mhPage2GridText7,
+.mhPage2GridText8,
+.mhPage2GridText9,
+.mhPage2GridText10,
+.mhPage2GridText11,
+.mhPage2GridText12,
+.mhPage2GridText13,
+.mhPage2GridText14 {
+    margin-left: 20px;
+    width: 192px;
+    height: 62px;
+    font-size: 24px;
+    color: #404040;
+}
+
+.mhPage2GridImageSpan1,
+.mhPage2GridImageSpan2,
+.mhPage2GridImageSpan3,
+.mhPage2GridImageSpan4,
+.mhPage2GridImageSpan5,
+.mhPage2GridImageSpan6,
+.mhPage2GridImageSpan7,
+.mhPage2GridImageSpan8,
+.mhPage2GridImageSpan9,
+.mhPage2GridImageSpan10,
+.mhPage2GridImageSpan11,
+.mhPage2GridImageSpan12,
+.mhPage2GridImageSpan13,
+.mhPage2GridImageSpan14 {
+    width: auto;
+}
+
+/* .mhPage2child2Div {
+    border: 0px;
+    position: fixed;
+    bottom: 0px;
+    height: auto;
+}
+
+.mhPage2footerButton {
+    border: 0px;
+    background-color: #D10D74;
+    color: #fff;
+    height: 80px;
+    font-size: 30px;
+}
+
+.fotterbuttonImage{
+    width: 299px;
+    height: 175px;
+    position: relative;
+    margin-bottom: -80px;
+} */
+
+.mhPage2fotterParent {
+    border: 0px;
+    background-color: #D10D74;
+    color: #fff;
+    height: 70px;
+    font-size: 30px !important;
+    position: fixed;
+    bottom: 0px;
+    text-align: center;
+    z-index: 9;
+    padding-left: 0px;
+}
+
+.mhPage2footerText {
+    /* height: 45px; */
+    margin: auto;
+    /* width: 50%; */
+    text-align: center;
+    word-break: break-all;
+}
+
+.mhPage2footerImage {
+    width: 299px;
+    height: 175px;
+    position: absolute;
+    bottom: 0px;
+    z-index: 1;
+    margin-left: 123px;
+    transform: skewX(-10deg);
+}
+
+.mhPage2Imagediv {
+    position: fixed;
+    top: 0px;
+    z-index: 10;
+}
+
+.mhPage2ModalImage {
+    height: auto;
+    width: fit-content;
+}
+
+.mhPage2ModalContentParent {
+    height: fit-content;
+    width: fit-content;
+}
+
+.mhPage2ModalFooter {
+    height: auto
+}
+
+/* =============================================SERVICES Page 2 Style CSS start=================================================== */
+
+/* ====================================METHODOLOGY CSS START================================================== */
+.page8ParentBody {
+    background-image: url(./img/SVG/black-dotline.svg)
+}
+
+.page8Child1Div,
+.page8HeadParent,
+.page8HeadChild1,
+.page8HeadChild2,
+.page8HeadChild2,
+.page8Child2Div {
+    height: auto;
+}
+
+
+.page8HeadChild2 {
+    margin-top: 10px;
+    margin-bottom: 295px;
+    /* margin-right: 40px; */
+}
+
+.page8HeadChild1Text {
+    font-size: 3.65vw;
+    height: auto;
+    font-weight: bold;
+    font-family: Helvetica, sans-serif;
+    color: #4D4F53;
+    text-align: left;
+}
+
+.page8HeadChild2Text {
+    font-size: 30px;
+    width: 381px;
+    height: 35px;
+    height: auto;
+    text-align: left;
+    font-family: Helvetica, sans-serif;
+    color: #4D4F53;
+
+}
+
+.page8HeadChild2TextRed1,
+.page8HeadChild2TextRed2 {
+
+    color: #D10D74;
+    height: auto;
+}
+
+.page8HeadChild2Button {
+
+
+    width: fit-content;
+    height: 60px;
+    background: rgb(209, 13, 116);
+    border-radius: 30px;
+    border: 0px;
+    opacity: 1;
+    padding: 2%;
+
+}
+
+
+.BtnTxt {
+    width: 207px;
+    height: 27px;
+    height: auto;
+    text-align: left;
+    color: #ffff;
+    font-size: 20px;
+    opacity: 1 !important;
+    margin-right: 1px;
+}
+
+.ArrowImg {
+    width: 36px;
+    height: auto;
+    margin-left: 8px;
+    margin-bottom: 3px;
+}
+
+.FlowchartImg {
+    height: 685px;
+    width: 100%;
+    margin-top: 66px;
+    ;
+    margin-bottom: 95px;
+}
+
+/* .page8HeadParent{
+    margin-right: 40px;
+} */
+
+.page8HeadParent,
+.page8HeadChild2Button {
+    /* margin-left: 123px; */
+    margin-top: 66px;
+}
+
+.page8Child1Div {
+    padding-right: 80px !important;
+    /* margin-right: 20px; */
+}
+
+.page8Child2Div {
+    padding-left: 80px !important;
+    /* margin-left: 20px; */
+    /* width:437px; */
+    width: fit-content;
+}
+
+.page8ParentDiv {
+    padding: 50px;
+}
+
+/* ====================================METHODOLOGY Media Query======================== */
+@media screen and (max-width: 1167px) {
+
+    .page8Child1Div,
+    .page8Child2Div {
+        flex: 100%;
+        /* background-color: #D10D74; */
+        display: contents;
+        /* padding-left: 5% !important;
+    padding-right: 5% !important; */
+
+    }
+
+    .FlowchartImg {
+        /* margin-left: 123px; */
+
+        margin-top: -150px;
+
+    }
+
+    .page8HeadChild2 {
+
+        margin-bottom: 100px;
+    }
+
+    .page8HeadChild2Button {
+        width: 100%;
+    }
+
+    /* .page8HeadParent, .page8HeadChild2Button{
+    
+} */
+}
+
+@media screen and (max-width: 362px) {
+    .page8HeadChild2Button {
+        height: 72px
+    }
+}
+
+/* ====================================METHODOLOGY CSS END================================================== */
+/* ====================================CONTACT US CSS START================================================== */
+body,
+* {
+    font-family: Helvetica Neue,
+        Arial,
+        sans-serif;
+    font-size: 18px;
+    height: 100%;
+    width: 100%;
+}
+
+.page16body {
+    background-image: url(./img/SVG/black-dotline.svg);
+    background-color: #f8f9fa;
+}
+
+
+
+/* left pannel style */
+.leftPannel {
+    padding-left: 5% !important;
+    padding-right: 5% !important;
+
+}
+
+.head1,
+.head2,
+.FormView,
+.FormViewParent,
+.SubButtonRed {
+    height: auto;
+}
+
+.head1 {
+    margin-top: 60px;
+}
+
+.head2 {
+    margin-top: 39px;
+}
+
+.head1Text {
+    font-size: 70px;
+    font-weight: bold;
+    color: #4D4F53;
+    opacity: 1 !important;
+    text-align: left;
+    width: 534px;
+    height: 97px;
+}
+
+.head2Text {
+    font-size: 44px;
+    font-weight: bold;
+    color: #4D4F53;
+    opacity: 1 !important;
+    text-align: left;
+    width: 216px;
+    height: 53px;
+}
+
+.head2TextRed {
+    font-size: 44px;
+    font-weight: bold;
+    color: #D10D74;
+    opacity: 1 !important;
+    width: 86px;
+    height: 53px;
+}
+
+.FormView {
+    width: 100%;
+    height: 389px;
+    opacity: 1 !important;
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(209, 13, 116);
+    border-radius: 20px;
+    margin-top: 17px;
+}
+
+
+
+.EmailInput,
+.ContactNoInput {
+    border: 0px;
+
+    font-size: 18px;
+    height: 21px;
+    outline: none;
+    margin-left: 20px;
+}
+
+.FullNameInput {
+    border: 0px;
+    /* border-bottom: 1px solid;
+    border-color: #D10D74; */
+    font-size: 18px;
+    height: 21px;
+    outline: none;
+
+    margin-left: 20px;
+}
+
+.FullName {
+    border: 0px;
+    border-bottom: 1px solid;
+    border-color: #D10D74;
+    margin-bottom: 20px;
+
+}
+
+.Email,
+.ContactNo,
+.DropLine {
+    border: 0px;
+    border-bottom: 1px solid;
+    border-color: #4D4F53;
+    margin-bottom: 20px;
+
+}
+
+
+
+
+.DropLineInput {
+    border: 0px;
+    font-size: 18px;
+    height: 21px;
+    outline: none;
+    margin-top: 45px;
+    margin-left: 20px;
+}
+
+.FNameIcon {
+    width: 33px;
+    height: 21px;
+    position: absolute;
+    margin-left: -6px;
+}
+
+.EMIcon {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    margin-left: 0px;
+    margin-top: 2px;
+
+}
+
+.ConIcon {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    margin-left: 0px;
+    margin-top: 2px;
+}
+
+
+.EdIcon {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    margin-left: 0px;
+    margin-top: 44px;
+
+}
+
+.SnIcon {
+    width: 33px;
+    height: 21px;
+    /* position: absolute; */
+    margin-left: -25px;
+}
+
+.SubButton {
+    display: flex;
+    justify-content: flex-end;
+    height: 40%;
+}
+
+.SubButtonRed {
+    border: 0px;
+    width: 134px;
+    height: 62px;
+    border-radius: 20px 0px;
+    right: 0px;
+    bottom: 0px;
+    margin-top: auto;
+    margin-bottom: 48px;
+    margin-right: 0px;
+    background-color: #D10D74;
+    color: #fff;
+    font-size: 22px;
+}
+
+.FormViewParent {
+    padding: 24px 48px 24px 48px;
+}
+
+
+/* Right Pannel Style */
+.rightPannel {
+    padding-left: 5% !important;
+    padding-right: 5% !important;
+
+}
+
+.RightPannelParent,
+.topPart,
+.BottomPart,
+.MWU,
+.Address,
+.AddressN,
+.AddressP,
+.AddressE {
+    height: auto;
+}
+
+.topPart {
+    margin-top: 60px;
+}
+
+.worldMap {
+    width: 100%;
+    height: 624px;
+}
+
+
+.BottomPart {
+
+    margin-top: 0px;
+
+}
+
+.MWU {
+    justify-content: center;
+    margin-bottom: 16px;
+}
+
+.MWUTExt {
+    height: 52px;
+    width: 134px;
+    color: #4D4F53;
+    text-align: left;
+    font-size: 44px;
+}
+
+.MeetRed {
+    color: #D10D74;
+    text-align: left;
+    height: 52px;
+    width: 95px;
+    font-size: 44px;
+}
+
+.BottomPart {
+    margin-left: 20%;
+    width: auto;
+}
+
+.Address {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Addressicon,
+.AddressPhoneicon,
+.AddressEmailicon {
+    height: auto;
+    width: auto;
+}
+
+.iconImg1,
+.iconImg2,
+.iconImg3 {
+    width: 17px;
+    height: 30px;
+}
+
+.AddressText,
+.AddressPhone,
+.AddressEmail {
+    margin-left: 5%;
+}
+
+.userIcon {
+    height: 21px;
+    width: 33px;
+}
+
+@media screen and (max-width: 1000px) {
+
+    .leftPannel,
+    .rightPannel {
+        flex: 100%;
+        background-color: #D10D74;
+        display: contents;
+        /* padding-left: 5% !important;
+    padding-right: 5% !important; */
+
+    }
+
+    .gridDiv {
+        padding-left: 5% !important;
+        padding-right: 5% !important;
+    }
+
+    .Address {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+
+
+
+}
+/* ====================================CONTACT US CSS END================================================== */
