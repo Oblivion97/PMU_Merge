@@ -100,14 +100,21 @@ body,
     height: auto;
     position: absolute;
     bottom: 0;
-    width: fit-content;
+    width: auto;
 }
 
-@media screen and (max-width: 368px) {
+@media screen and (max-width: 388px) {
 
     .mhpage1RightText,
     .mhpage1LeftText {
         font-size: 70px
+    }
+}
+
+@media screen and (max-width: 368px) {
+    .mhpage1RightText,
+    .mhpage1LeftText {
+        font-size: 65px
     }
 }
 
@@ -117,6 +124,13 @@ body,
     .mhpage1LeftText {
         font-size: 60px
     }
+}
+
+@media screen and (max-width: 284px) {
+.mhpage1RightText,
+.mhpage1LeftText {
+    font-size: 55px
+}
 }
 
 @media screen and (max-width: 270px) {
@@ -593,16 +607,6 @@ body,
 
 /* ====================================METHODOLOGY CSS END================================================== */
 /* ====================================CONTACT US CSS START================================================== */
-body,
-* {
-    font-family: Helvetica Neue,
-        Arial,
-        sans-serif;
-    font-size: 18px;
-    height: 100%;
-    width: 100%;
-}
-
 .page16body {
     background-image: url(./img/SVG/black-dotline.svg);
     background-color: #f8f9fa;
