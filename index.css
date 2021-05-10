@@ -15,12 +15,20 @@ body,
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    position: relative;
+    position: absolute;
     width: 100%;
 }
 
+.mhPage1ParentDiv {
+    height: 100%;
+    width: 100;
+}
 
-/* page1 left side style */
+.mhPage1GridParent {
+    width: 100%;
+    height: 100%;
+}
+
 .mhPage1Left {
     height: auto;
     bottom: 0;
@@ -28,8 +36,6 @@ body,
     left: 0;
     padding-left: 5% !important;
 }
-
-
 
 .mhpage1LeftText {
     height: 112px;
@@ -51,7 +57,6 @@ body,
     border: 0ch;
 }
 
-/* page1 right side style */
 .mhPage1Right {
     height: auto;
     bottom: 0;
@@ -97,7 +102,7 @@ body,
 
 .mhpageLeftChildDiv,
 .mhpageRightChildDiv {
-    height: auto;
+    /* height: auto; */
     position: absolute;
     bottom: 0;
     width: auto;
