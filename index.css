@@ -53,7 +53,6 @@ body,
 /* page1 right side style */
 .mhPage1Right {
     height: auto;
-    position: fixed;
     bottom: 0;
     margin-bottom: 50px;
     right: 0;
@@ -64,6 +63,7 @@ body,
     height: 112px;
     width: 100%;
     font-size: 80px;
+    /* font-size: calc(5rem + 1vw); */
     text-align: left;
     color: #fff;
 }
@@ -85,6 +85,44 @@ body,
 .mhpage1LeftButtondiv,
 .mhpage1LeftTextdiv {
     height: auto;
+}
+
+.mhPage1Left,
+.mhPage1Right {
+    
+    position: relative;
+
+}
+
+.mhpageLeftChildDiv,
+.mhpageRightChildDiv {
+    height: auto;
+    position: absolute;
+    bottom: 0;
+    width: fit-content;
+}
+
+@media screen and (max-width: 368px) {
+    .mhpage1RightText,
+    .mhpage1LeftText{
+        font-size: 70px
+    }
+}
+
+@media screen and (max-width: 322px) {
+
+    .mhpage1RightText,
+    .mhpage1LeftText {
+        font-size: 60px
+    }
+}
+
+@media screen and (max-width: 270px) {
+
+    .mhpage1RightText,
+    .mhpage1LeftText {
+        font-size: 50px
+    }
 }
 
 /* =============================================HOME Style CSS end=================================================== */
