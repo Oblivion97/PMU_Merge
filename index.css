@@ -339,6 +339,7 @@ body,
     text-align: center;
     z-index: 9;
     padding-left: 0px;
+    border-radius: 0px !important;
 }
 
 .mhPage2footerText {
@@ -383,14 +384,18 @@ body,
 .mhPage2ModalContent {
     height: auto;
 }
-.mhPage2ModalFooter{
+
+.mhPage2ModalFooter {
+    border-radius: 0px !important;
     padding: 1%;
     background-color: #D10D74 !important;
-    
+
 }
-.mhPage2footerModalButton{
+
+.mhPage2footerModalButton {
     color: #fff !important;
 }
+
 @media screen and (max-width: 406px) {
 
     .mhPage2FirstHeadText {
