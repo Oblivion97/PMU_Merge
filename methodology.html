@@ -5,6 +5,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <!-- ===============================MAINUL CODE DEPENDENCY START============================== -->
+    <link rel="stylesheet" href="./navbar/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./navbar/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="./navbar/css/vendor/owl.carousel.min.css">
+    <link rel="stylesheet" href="./navbar/css/vendor/owl.theme.default.min.css">
+    <link rel="stylesheet" href="./navbar/css/vendor/magnific-popup.css">
+    <!-- ========= Custom CSS File  =========-->
+    <link rel="stylesheet" href="./navbar/css/style.css">
+    <link rel="stylesheet" href="./navbar/css/responsive.css">
+    <!-- ===============================MAINUL CODE DEPENDENCY END============================== -->
+
+
+
     <link rel="stylesheet" href="./index.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
@@ -12,6 +27,12 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
     <title>Document</title>
 </head>
+
+<!-- ===============================MAINUL CODE integration html START============================== -->
+<div w3-include-html="./navbar/navbar.html"></div>
+<!-- ===============================MAINUL CODE integration html START============================== -->
+
+
 
 <body class="page8ParentBody" backgro>
     <div class="page8ParentDiv row">
@@ -30,8 +51,9 @@
             </div>
 
             <div class="page8HeadChild2">
-                <button class="page8HeadChild2Button"> <span class="buttonSpanParent"> <span class="BtnTxt"> Let’s Manage a Project </span> <img
-                        class="ArrowImg" src="./img/SVG/right-arrow.svg"></span></button>
+                <button class="page8HeadChild2Button"> <span class="buttonSpanParent"> <span class="BtnTxt"> Let’s
+                            Manage a Project </span> <img class="ArrowImg"
+                            src="./img/SVG/right-arrow.svg"></span></button>
             </div>
         </div>
         <!-- ===================================LEFT PANNEL END=========================================-->
@@ -54,5 +76,47 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
+
+<!-- ===============================MAINUL CODE integration js START============================== -->
+
+<script>
+    function includeHTML() {
+        var z, i, elmnt, file, xhttp;
+        /* Loop through a collection of all HTML elements: */
+        z = document.getElementsByTagName("*");
+        for (i = 0; i < z.length; i++) {
+            elmnt = z[i];
+            /*search for elements with a certain atrribute:*/
+            file = elmnt.getAttribute("w3-include-html");
+            if (file) {
+                /* Make an HTTP request using the attribute value as the file name: */
+                xhttp = new XMLHttpRequest();
+                xhttp.onreadystatechange = function () {
+                    if (this.readyState == 4) {
+                        if (this.status == 200) {
+                            elmnt.innerHTML = this.responseText;
+                        }
+                        if (this.status == 404) {
+                            elmnt.innerHTML = "Page not found.";
+                        }
+                        /* Remove the attribute, and call this function once more: */
+                        elmnt.removeAttribute("w3-include-html");
+                        includeHTML();
+                    }
+                }
+                xhttp.open("GET", file, true);
+                xhttp.send();
+                /* Exit the function: */
+                return;
+            }
+        }
+    }
+</script>
+<script>
+    includeHTML();
+</script>
+<!-- ===============================MAINUL CODE integration js END============================== -->
+
+
 
 </html>
