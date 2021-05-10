@@ -4,8 +4,8 @@ body,
         Arial,
         sans-serif;
     /* font-size: 18px; */
-    height: 100%;
-    width: 100%;
+    /* height: 100%;
+    width: 100%; */
 }
 
 /* =============================================HOME Style CSS start=================================================== */
@@ -112,6 +112,7 @@ body,
 }
 
 @media screen and (max-width: 368px) {
+
     .mhpage1RightText,
     .mhpage1LeftText {
         font-size: 65px
@@ -127,10 +128,11 @@ body,
 }
 
 @media screen and (max-width: 284px) {
-.mhpage1RightText,
-.mhpage1LeftText {
-    font-size: 55px
-}
+
+    .mhpage1RightText,
+    .mhpage1LeftText {
+        font-size: 55px
+    }
 }
 
 @media screen and (max-width: 270px) {
@@ -343,6 +345,7 @@ body,
 } */
 
 .mhPage2fotterParent {
+    width: 100%;
     border: 0px !important;
     background-color: #D10D74 !important;
     color: #fff !important;
@@ -408,6 +411,7 @@ body,
 
 .mhPage2footerModalButton {
     color: #fff !important;
+    width: 100%;
 }
 
 @media screen and (max-width: 406px) {
@@ -562,6 +566,7 @@ body,
 }
 
 .page8ParentDiv {
+    width: 100%;
     padding: 50px;
 }
 
@@ -588,6 +593,7 @@ body,
     .page8HeadChild2 {
 
         margin-bottom: 100px;
+        width: 100%;
     }
 
     .page8HeadChild2Button {
@@ -681,7 +687,7 @@ body,
 .EmailInput,
 .ContactNoInput {
     border: 0px;
-
+    width: 100%;
     font-size: 18px;
     height: 21px;
     outline: none;
@@ -695,7 +701,7 @@ body,
     font-size: 18px;
     height: 21px;
     outline: none;
-
+    width: 100%;
     margin-left: 20px;
 }
 
@@ -727,6 +733,7 @@ body,
     outline: none;
     margin-top: 45px;
     margin-left: 20px;
+    width: 100%;
 }
 
 .FNameIcon {
@@ -784,7 +791,7 @@ body,
     right: 0px;
     bottom: 0px;
     margin-top: auto;
-    margin-bottom: 48px;
+    margin-bottom: 40px;
     margin-right: 0px;
     background-color: #D10D74;
     color: #fff;
@@ -885,6 +892,9 @@ body,
     height: 21px;
     width: 33px;
 }
+.gridDiv{
+    width: 100%;
+}
 
 @media screen and (max-width: 1000px) {
 
@@ -899,6 +909,7 @@ body,
     }
 
     .gridDiv {
+        width: 100%;
         padding-left: 5% !important;
         padding-right: 5% !important;
     }
