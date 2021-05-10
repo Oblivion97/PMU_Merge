@@ -7,6 +7,7 @@ body,
     height: 100%;
     width: 100%;
 }
+
 /* =============================================HOME Style CSS start=================================================== */
 .mhPage1Background {
     background-image: url(./img/image/Hero-image.png);
@@ -89,7 +90,7 @@ body,
 
 .mhPage1Left,
 .mhPage1Right {
-    
+
     position: relative;
 
 }
@@ -103,8 +104,9 @@ body,
 }
 
 @media screen and (max-width: 368px) {
+
     .mhpage1RightText,
-    .mhpage1LeftText{
+    .mhpage1LeftText {
         font-size: 70px
     }
 }
@@ -147,6 +149,7 @@ body,
 
 .mhpage2Header {
     margin-top: 60px;
+    margin-bottom: 63px;
 }
 
 .mhPage2FirstHead {
@@ -193,13 +196,14 @@ body,
 } */
 
 .mhPage2Grid {
-    margin-top: 63px;
+    /* margin-top: 63px; */
     max-width: 1638px;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     row-gap: 88px;
     column-gap: 85px;
     padding-bottom: 0px;
+    margin-bottom: 63px;
     height: auto;
 }
 
@@ -298,6 +302,10 @@ body,
     width: auto;
 }
 
+.mhPage2child2Div {
+    display: inline-flex;
+}
+
 /* .mhPage2child2Div {
     border: 0px;
     position: fixed;
@@ -321,9 +329,9 @@ body,
 } */
 
 .mhPage2fotterParent {
-    border: 0px;
-    background-color: #D10D74;
-    color: #fff;
+    border: 0px !important;
+    background-color: #D10D74 !important;
+    color: #fff !important;
     height: 70px;
     font-size: 30px !important;
     position: fixed;
@@ -338,7 +346,8 @@ body,
     margin: auto;
     /* width: 50%; */
     text-align: center;
-    word-break: break-all;
+    font-size: 30px;
+    /* word-break: break-all; */
 }
 
 .mhPage2footerImage {
@@ -369,6 +378,56 @@ body,
 
 .mhPage2ModalFooter {
     height: auto
+}
+
+.mhPage2ModalContent {
+    height: auto;
+}
+.mhPage2ModalFooter{
+    padding: 1%;
+    background-color: #D10D74 !important;
+    
+}
+.mhPage2footerModalButton{
+    color: #fff !important;
+}
+@media screen and (max-width: 406px) {
+
+    .mhPage2FirstHeadText {
+        font-size: 60px;
+    }
+
+    /* .mhPage2footerText{
+        font-size: 25px;
+    } */
+}
+
+@media screen and (max-width: 563px) {
+    .mhPage2childDiv {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+}
+
+@media screen and (max-width: 642px) {
+    .mhPage2fotterParent {
+        height: 100px;
+    }
+
+    .mhPage2Grid {
+        margin-bottom: 100px;
+    }
+
+}
+
+@media screen and (max-width: 642px) {
+    .mhPage2fotterParent {
+        height: 150px;
+    }
+
+    .mhPage2Grid {
+        margin-bottom: 150px;
+    }
 }
 
 /* =============================================SERVICES Page 2 Style CSS start=================================================== */
@@ -845,4 +904,5 @@ body,
 
 
 }
+
 /* ====================================CONTACT US CSS END================================================== */
