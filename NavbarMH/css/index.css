@@ -27,7 +27,7 @@
 
 .dropdown:hover .mhNavbarDropdownMenu {
   display: block;
-  
+
 }
 
 
@@ -111,4 +111,20 @@
 .link2Text,
 .link3Text {
   transform: skew(20deg);
+}
+
+.navparent {
+  height: 120px
+}
+
+.mhcollapsibleNavbar {
+  height: 100%;
+}
+
+.UlTag {
+  height: 100%;
+}
+
+.dropbtn {
+  height: 100%;
 }
