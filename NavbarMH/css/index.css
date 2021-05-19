@@ -27,10 +27,20 @@
 
 .dropdown:hover .mhNavbarDropdownMenu {
   display: block;
+  
+}
+
+
+.dropdown:hover .no_hover {
+  display: none;
+}
+
+.dropdown:hover .yes_hover {
+  display: inline !important;
 }
 
 .mhNavbarDropdownMenu a:hover {
-  background-color: #ddd;
+  background-color: red;
 }
 
 .mhcollapsibleNavbar li:hover,
@@ -47,6 +57,7 @@
   background-color: inherit;
   font-family: inherit;
   margin: 0;
+
 }
 
 .nav-link {
@@ -56,7 +67,7 @@
   display: flex !important;
   align-items: center !important;
   display: block;
-  transform: skew(-20deg);
+  transform: skew(20deg);
   color: inherit;
 }
 
@@ -70,5 +81,34 @@
 
 .nav-item {
   transition: 0.3s;
+  transform: skew(-20deg);
+}
+
+.dropdown {
+  transform: skew(-20deg);
+}
+
+.dropbtn {
+  transform: skew(0deg);
+}
+
+.DropdownButtonText {
+  transform: skew(20deg);
+}
+
+.mhNavbarDropdownMenu {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+
+/* .dropdown-item{
+  transition: 0.3s;
+  transform: skew(20deg);
+} */
+
+.link1Text,
+.link2Text,
+.link3Text {
   transform: skew(20deg);
 }
